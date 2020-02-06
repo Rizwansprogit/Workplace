@@ -1,6 +1,6 @@
 {
-  "name": "first-app",
-  "version": "0.0.0",
+  "name": "myfirstpack",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -44,5 +44,13 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.",
+  "main": "From Home",
+  "keywords": [
+    "For",
+    "Workplace"
+  ],
+  "author": "Rizwans Shaikh",
+  "license": "ISC"
 }
