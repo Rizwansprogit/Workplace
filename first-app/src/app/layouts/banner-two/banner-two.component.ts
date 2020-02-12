@@ -2,12 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-banner-two',
-  template: `
-    <p>
-      banner-two works!
-    </p>
-  `,
-  styles: []
+  templateUrl: './banner-two.component.html',
+  styleUrls: ['./banner-two.component.css']
 })
 export class BannerTwoComponent implements OnInit {
 

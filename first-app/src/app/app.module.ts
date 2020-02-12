@@ -7,6 +7,8 @@ import { NavComponent } from './layouts/nav/nav.component';
 import { ProductsComponent } from './layouts/products/products.component';
 import { ContactsComponent } from './layouts/contacts/contacts.component';
 import { FooterComponent } from './layouts/footer/footer.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { BannerThreeComponent } from './layouts/banner-three/banner-three.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { FooterComponent } from './layouts/footer/footer.component';
     ProductsComponent,
     ContactsComponent,
     FooterComponent,
+    SidebarComponent,
+    BannerThreeComponent,
     // LoginComponent
   ],
   imports: [

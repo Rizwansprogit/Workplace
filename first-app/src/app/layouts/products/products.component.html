@@ -1,0 +1,52 @@
+<!-- products.component.html -->
+<div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+      <!-- Start : row -->
+  
+        <!-- Empty the 'row' div -->
+  
+        <!-- remove this 'div' for products -->
+        <div class="col s12 m4" *ngFor="let mob of mobParts">
+          <div class="icon-block">
+            <h2 class="center brown-text">
+              <img src="{{mob.IMG}}">
+            </h2>
+            <h5 class="center">{{mob.name}}</h5>
+            <h5 *ngIf="mob.inStock > 0; else outOfStock" class="center inStock">{{mob.inStock}}</h5>
+            <ng-template #outOfStock>
+              <h5 class="center outOfStock">Out Of Stock..!</h5>
+            </ng-template>
+            
+            <table id="content">
+              <tr>
+                <td ><a class="waves-effect waves-light btn">Add to cart</a></td>
+                <td ><a class="waves-effect waves-light btn green">Buy</a></td>
+                <td ><a class="waves-effect waves-light btn orange">Wishlist</a></td>
+              </tr>
+            </table>
+            <!-- <p class="light">
+              {{mob.proddescription}}
+            </p> -->
+
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="{{mob.IMG}}">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <!--/ products.component.html -->
