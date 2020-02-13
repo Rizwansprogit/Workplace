@@ -1,20 +1,18 @@
 <!-- products.component.html -->
 <div class="container">
     <div class="section">
+      <div class="row"><h5>Mobile Shop...</h5></div>
+
       <!--   Icon Section   -->
       <div class="row">
-      <!-- Start : row -->
-  
-        <!-- Empty the 'row' div -->
-  
-        <!-- remove this 'div' for products -->
+    
         <div class="col s12 m4" *ngFor="let mob of mobParts">
           <div class="icon-block">
             <h2 class="center brown-text">
               <img src="{{mob.IMG}}">
             </h2>
-            <h5 class="center">{{mob.name}}</h5>
-            <h5 *ngIf="mob.inStock > 0; else outOfStock" class="center inStock">{{mob.inStock}}</h5>
+            <h5 class="center">{{mob.name | uppercase}}</h5>
+            <h5 *ngIf="mob.inStock > 0; else outOfStock" class="center inStock">Avaialable : {{mob.inStock}}</h5>
             <ng-template #outOfStock>
               <h5 class="center outOfStock">Out Of Stock..!</h5>
             </ng-template>
@@ -31,19 +29,7 @@
             </p> -->
 
           </div>
-          <div class="card">
-            <div class="card-image">
-              <img src="{{mob.IMG}}">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
+         
         </div>
   
       </div>

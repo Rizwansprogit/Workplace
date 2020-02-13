@@ -9,6 +9,9 @@ import { ContactsComponent } from './layouts/contacts/contacts.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { BannerThreeComponent } from './layouts/banner-three/banner-three.component';
+import { FirstPipePipe } from './first-pipe.pipe';
+import { BooksComponent } from './products/books/books.component';
+import { UsercontrolComponent } from './usercontrol/usercontrol.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { BannerThreeComponent } from './layouts/banner-three/banner-three.compon
     FooterComponent,
     SidebarComponent,
     BannerThreeComponent,
-    // LoginComponent
+    FirstPipePipe,
+    BooksComponent,
+    UsercontrolComponent,
+    
   ],
   imports: [
     BrowserModule,

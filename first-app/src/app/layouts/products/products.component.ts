@@ -9,7 +9,7 @@ export class ProductsComponent{
 
   mobParts = [
     {
-      name: "Mobile Screen",
+      name: "Iphone",
       id: 1001,
       inStock: 350,
       prodColor: "red",
@@ -20,7 +20,7 @@ export class ProductsComponent{
 
     },
     {
-      name: "Mobile Screen 5",
+      name: "Samsung",
       id: 1002,
       inStock: 350,
       prodColor: "blue",
@@ -31,7 +31,7 @@ export class ProductsComponent{
 
     },
     {
-      name: "Mobile Screen 5.5",
+      name: "One Plus Pro",
       id: 1003,
       inStock: 0,
       prodColor: "green",

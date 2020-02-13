@@ -1,0 +1,16 @@
+.Author{
+    color: hotpink;
+}
+.Price{
+    color: indianred;
+}
+.offper{
+    color: orangered;
+}
+.discountprice{
+    color: green;
+}
+p{
+    font-size:25px;
+    padding: 5px;
+}

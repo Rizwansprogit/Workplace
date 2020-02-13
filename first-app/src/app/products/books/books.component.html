@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="section">
+
+        <div class="row"><h5>Book Shop...</h5></div>
+
+      <div class="row">
+
+        <div class="col s12 m4" *ngFor="let booklist of bookdetails">
+<div class="card" >
+    <div class="card-image">
+      <img src="{{booklist.IMG}}">
+      <span class="card-title">{{booklist.name}}</span>
+    </div>
+    <div class="card-content">
+     
+      <p class="Author">Author : {{booklist.author}}</p>
+      <p class="Price">Orignal Price : {{booklist.price}}</p>
+      <p class="offper">You Get : {{booklist.discountper}}% off</p>
+      <p class="discountprice">Discount Price : {{booklist.price | firstPipe:booklist.discountper}}</p>
+      <p class="">Date : {{today | date}}</p>
+    </div>
+    <!-- <div class="card-action">
+      <a href="#">This is a link</a>
+    </div> -->
+  </div>
+</div>
+
+
+
+</div>
+</div>
