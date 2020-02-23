@@ -12,6 +12,7 @@ import { BannerThreeComponent } from './layouts/banner-three/banner-three.compon
 import { FirstPipePipe } from './first-pipe.pipe';
 import { BooksComponent } from './products/books/books.component';
 import { UsercontrolComponent } from './usercontrol/usercontrol.component';
+import { FirstDirective } from './directives/first.directive';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { UsercontrolComponent } from './usercontrol/usercontrol.component';
     FirstPipePipe,
     BooksComponent,
     UsercontrolComponent,
+    FirstDirective,
     
   ],
   imports: [

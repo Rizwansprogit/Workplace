@@ -50,10 +50,10 @@ export class BooksComponent {
     {
       name: "Angular 8",
       IMG:"./assets/img/6.jpeg",
-      price:1700,
-      discountper:15,
+      price:3000,
+      discountper:10,
       author:"Rizwan S"
-    }
+    },
   ];
 
 

@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./usercontrol.component.css']
 })
 export class UsercontrolComponent  {
+ 
+  arrofOBJ = ["saa","dfd","cdh","jdb"];
 
+  
  
 }
